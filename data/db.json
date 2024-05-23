@@ -1,0 +1,44 @@
+{
+  "endereço": [
+    {
+      "cep": "09810390",
+      "logradouro": "Rua das Orquideas",
+      "Bairro": "Assunção",
+      "Cidade": "São Bernado do Campo ",
+      "uf": "SP",
+      "id": "2315"
+    },
+    {
+      "cep": "03574110",
+      "logradouro": "Rua Embiú",
+      "Bairro": "Jardim Santa Maria",
+      "Cidade": "São Paulo ",
+      "uf": "SP",
+      "id": "1649"
+    },
+    {
+      "cep": "09230590",
+      "logradouro": "Rua do Centro",
+      "Bairro": "Vila Camilopolis",
+      "Cidade": "Santo André ",
+      "uf": "SP",
+      "id": "6aac"
+    },
+    {
+      "cep": "60425235",
+      "logradouro": "Rua Alberto Magno",
+      "Bairro": "Montese",
+      "Cidade": "Fortaleza ",
+      "uf": "CE",
+      "id": "1dff"
+    },
+    {
+      "id": "0f19",
+      "cep": "042366060",
+      "logradouro": "Rua Moreira de Godói",
+      "Bairro": "Ipiranga",
+      "Cidade": "São Paulo",
+      "uf": "SP"
+    }
+  ]
+}
