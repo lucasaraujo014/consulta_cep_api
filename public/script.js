@@ -8,7 +8,7 @@ function consultaCEP(cep) {
             document.querySelector('#uf').setAttribute('readonly','')
             
             const requisicao = new Request(`https://viacep.com.br/ws/${cep}/json`,{
-                "methodo":"GET",
+                "method":"GET",
                 "headers": {
                     "Content-type": "application/json"
                 }
@@ -48,4 +48,31 @@ function limpaform() {
         input.valve = ''
     });
     
+}
+function cadastraCEP(endrecoCompleto) {
+    fetch('http://localhost:3000/endereço',{
+        "method": "POST",
+        "headers": {
+            "content-type": "aplicattion/json"
+        },
+        "body": JSON.stringify(endrecoCompleto)
+    }).then(resposta => {
+        resposta.ok ? window.alert('Endereço cadastrado'):
+        window.alert('Erro:'+resposta.status)
+
+    })
+    
+}
+function atualizaCEP(endrecoCompleto) {
+    fetch('http://localhost:3000/endereço',{
+        "method": "PATCH",
+        "headers": {
+            "content-type": "aplicattion/json"
+        },
+        "body": JSON.stringify(endrecoCompleto)
+    }).then(resposta => {
+        resposta.ok ? window.alert('Endereço atualizado'):
+        window.alert('Erro:'+resposta.status)
+
+    })
 }

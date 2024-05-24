@@ -39,6 +39,14 @@
       "Bairro": "Ipiranga",
       "Cidade": "São Paulo",
       "uf": "SP"
+    },
+    {
+      "id": "a224",
+      "cep": "042377060",
+      "logradouro": "rua do senai",
+      "bairro": "mooca",
+      "cidade": "São Paulo",
+      "uf": "SP"
     }
   ]
 }
